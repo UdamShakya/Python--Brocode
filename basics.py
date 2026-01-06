@@ -50,13 +50,6 @@ name = bool(name)
 print(name)
 
 #user input
-name = input("Enter your name: ")
-age = int(input("Enter your age: "))
-gpa = float(input("Enter your GPA: "))
-is_student = input("Are you a student? (True/False): ")
-
-print(f"hello {name}")  
-
 #Exercise 1 Rectangular Area Calc
 
 length = float(input("Enter the length of the rectangle: "))
@@ -72,3 +65,17 @@ quantity = int(input("Enter the quantity you want to purchase: "))
 
 total = price * quantity
 print(f"You have purchased {quantity} {item}(s) for a total of ${total}.")
+
+
+#madlibs game 
+
+adjective1 = input("Enter an adjective: ")
+noun1 = input("Enter a noun: ")
+adjective2 = input("Enter another adjective: ")
+verb1 = input("Enter a verb: ")
+adjective3 = input("Enter one more adjective: ")
+
+print(f"Today I went ot a {adjective1} zoo.")
+print(f"In an exhibit , I saw a {noun1}")
+print (f"It was {adjective2} and {verb1}ing.")
+print(f"I was {adjective3}!")
