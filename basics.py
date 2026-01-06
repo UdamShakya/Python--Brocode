@@ -48,3 +48,27 @@ print(age)
 
 name = bool(name)
 print(name)
+
+#user input
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+gpa = float(input("Enter your GPA: "))
+is_student = input("Are you a student? (True/False): ")
+
+print(f"hello {name}")  
+
+#Exercise 1 Rectangular Area Calc
+
+length = float(input("Enter the length of the rectangle: "))
+width = float(input("Enter the width of the rectangle: "))
+
+area = length * width
+print(f"The area of the rectangle is: {area}cm²")
+
+#Exercise 2 Shopping cart Program 
+item = input("Enter the item you want to purchase: ")
+price = float(input("Enter the price of the item: "))
+quantity = int(input("Enter the quantity you want to purchase: "))
+
+total = price * quantity
+print(f"You have purchased {quantity} {item}(s) for a total of ${total}.")
