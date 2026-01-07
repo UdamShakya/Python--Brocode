@@ -51,3 +51,28 @@ elif operator== "/":
         print("Division by zero error.")
 else:
     print("Invalid operator.") 
+
+
+#Python weight Converter
+
+weight= float(input("enter your weight : "))
+unit = input("(K)g or (L)bs: ")
+
+if unit.upper() == "K":
+    print(f"Your weight in pounds is: {weight * 2.20462}")
+elif unit.upper() == "L":
+    print(f"Your weight in kilograms is: {weight / 2.20462}")
+else:
+    print("Invalid unit.")
+
+#temperature conversion
+
+temp = float(input("Enter temperature: "))
+unit = input("Is this in (C)elsius or (F)ahrenheit? ")
+
+if unit.upper() == "C":
+    print(f"Temperature in Fahrenheit is: {temp * 9/5 + 32}")
+elif unit.upper() == "F":
+    print(f"Temperature in Celsius is: {(temp - 32) * 5/9}")
+else:
+    print("Invalid unit.")
