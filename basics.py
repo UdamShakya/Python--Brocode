@@ -1,6 +1,6 @@
 
-#variables 
-#strings 
+# #variables 
+# #strings 
 first_name = "bro"
 food = "pizza"
 print(f"hello {first_name}")
@@ -49,8 +49,8 @@ print(age)
 name = bool(name)
 print(name)
 
-#user input
-#Exercise 1 Rectangular Area Calc
+# user input
+# Exercise 1 Rectangular Area Calc
 
 length = float(input("Enter the length of the rectangle: "))
 width = float(input("Enter the width of the rectangle: "))
@@ -79,3 +79,26 @@ print(f"Today I went ot a {adjective1} zoo.")
 print(f"In an exhibit , I saw a {noun1}")
 print (f"It was {adjective2} and {verb1}ing.")
 print(f"I was {adjective3}!")
+
+# Arithmetic Operators 
+friends = 5
+friends = friends + 1
+friends += 1 #augmented operator 
+
+friends -= 2
+friends *= 3
+friends **= 3
+Remainder = friends % 3
+print(friends)
+
+x=3.14
+y=4
+z=5
+
+Result = round(x)
+Result= abs(y)
+Result = pow(z,2)
+Result= max(x,y,z)
+Result= min(x,y,z)
+
+print(Result)
