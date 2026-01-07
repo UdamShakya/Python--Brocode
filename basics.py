@@ -102,3 +102,22 @@ Result= max(x,y,z)
 Result= min(x,y,z)
 
 print(Result)
+
+#Math Package 
+import math
+math.pi
+print(math.pi)
+print(math.e)
+x=64
+y=2.44
+results =math.sqrt(64)
+
+result= math.ceil(3.14)
+result=math.floor(y)
+
+radius=float(input("Enter the radius of the circle: "))
+circumference = 2 * math.pi * radius
+print(f"The circumference of the circle is: {circumference}")
+area = math.pi * math.pow(radius, 2)
+print(f"The area of the circle is: {area}")
+
