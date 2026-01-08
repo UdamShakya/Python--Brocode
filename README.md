@@ -6,3 +6,8 @@ Covered the topics variables , type casting ,user inputs , arithmatic functions 
 
 time stamp - 0.00 - 1.29 
 
+## Day 02
+Covered the topics of string operators , string indexing , format specifiers and while loops.
+time stmap - 1.29 - 1.58
+
+
