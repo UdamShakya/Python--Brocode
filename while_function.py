@@ -33,3 +33,29 @@ while num < 1 or num > 10:
     print("Invalid number. Please try again.")
     num = int(input("Enter a number between 1 - 10 "))
 print(f"You entered: {num}")
+
+
+#python compound interest calcualtor
+
+princple = 0
+rate =0
+time =0 
+
+while principal <= 0:
+    principal = float(input("Enter the principal amount: "))
+    if principal <= 0:
+        print("Principal amount must be positive.")
+
+while rate <= 0:
+    rate = float(input("Enter the rate of interest: "))
+    if rate <= 0:
+        print("Rate of interest must be positive.")
+
+while time <= 0:
+    time = float(input("Enter the time (in years): "))
+    if time <= 0:
+        print("Time must be positive.")
+
+total= principal * pow(1 + rate / 100, time)
+compound_interest = total - principal
+print(f"The compound interest is: {compound_interest}")
