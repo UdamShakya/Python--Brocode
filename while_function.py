@@ -19,3 +19,17 @@ while age < 0:
     age = int(input("Enter your age: "))
 
 print(f"Your age is {age}.")
+
+food= input("Enter the food you want: (press q to quit)").upper()
+
+while not food== "Q":
+    print(f"Here is your {food}.")
+    food= input("Enter the food you want: (press q to quit)").upper()
+
+print(f"Goodbye!")
+
+num =int(input("Enter a number between 1 - 10 "))
+while num < 1 or num > 10:
+    print("Invalid number. Please try again.")
+    num = int(input("Enter a number between 1 - 10 "))
+print(f"You entered: {num}")
