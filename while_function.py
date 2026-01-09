@@ -46,10 +46,12 @@ while principal <= 0:
     if principal <= 0:
         print("Principal amount must be positive.")
 
-while rate <= 0:
+while True:
     rate = float(input("Enter the rate of interest: "))
     if rate <= 0:
         print("Rate of interest must be positive.")
+    else:
+        break
 
 while time <= 0:
     time = float(input("Enter the time (in years): "))
