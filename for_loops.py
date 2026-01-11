@@ -27,3 +27,19 @@ print("Time's up!")
 
 
 
+# nested loops 
+
+for y in range(3):
+    for x in range (1,10):
+        print(x, end="")
+    print()
+
+rows = int(input("Enter number of rows: "))
+columns = int(input("Enter number of columns: "))
+symbol = input("Enter symbol to use: ")
+
+for y in range(rows):
+    for x in range(columns):
+        print(symbol, end="")
+    print()
+
