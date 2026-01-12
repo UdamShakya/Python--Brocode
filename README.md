@@ -10,4 +10,11 @@ time stamp - 0.00 - 1.29
 Covered the topics of string operators , string indexing , format specifiers and while loops.
 time stmap - 1.29 - 1.58
 
+## Day 03 
+Covered the topics of for loops , data collection types sets, tuples and lists. Did couple of examples to figure out the use case of each data collection type. then dived into 2D lists , tuples and sets. 
+
+Time stamp - 1.58- 3.03
+
+# Day 04
+
 
