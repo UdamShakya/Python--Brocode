@@ -11,10 +11,10 @@ if Capitals.get("usa"):
 else:
     print("that capital doesn't exist")
 
-# Capitals.update({"germany": "Berlin"})
-# Capitals.pop("china")
-# Capitals.popitem()
-# Capitals.clear()
+Capitals.update({"germany": "Berlin"})
+Capitals.pop("china")
+Capitals.popitem()
+Capitals.clear()
 
 print(Capitals)
 keys = Capitals.keys()
