@@ -16,5 +16,7 @@ Covered the topics of for loops , data collection types sets, tuples and lists. 
 Time stamp - 1.58- 3.03
 
 # Day 04
+Covered the topics of random package , functions and arguments . did mulitple examples to understand the usecase of the previous topics
 
+Time stamp - 3.03 - 4.16
 
