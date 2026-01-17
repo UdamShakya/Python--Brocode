@@ -26,3 +26,42 @@ for key,value in dictionary.items():
     print()
     print(f"{key}: {value}", end=" ")
 
+# Membership operators
+
+word = "apple"
+
+letter = input("Enter a letter in the secret word: ")
+
+if letter in word:
+    print(f"{letter} is in the word!")
+else:
+    print(f"{letter} is not in the word.")
+
+students ={"spongebob","patrick","sandy"} #sets,lists,tuples act the same
+
+student = input("Enter student name: ")
+
+if student.lower() in students:
+    print(f"{student} is enrolled in the class.")
+else:
+    print(f"{student} is not enrolled in the class.")
+
+
+#dictionary
+
+grades = {"spongebob": 90, "patrick": 85, "sandy": 95}
+
+student= input("Enter student name: ")
+
+if student.lower() in grades:
+    print(f"{student}'s grade is {grades[student.lower()]}.")
+else:
+    print(f"{student} is not found in the gradebook.")
+
+
+email="udamilukpotha@gmail.com"
+
+if "@" in email and "." in email:
+    print("Valid email address.")
+else:
+    print("Invalid email address.")
