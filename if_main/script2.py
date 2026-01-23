@@ -1,6 +1,7 @@
 # from script1 import *
 import random 
 
+
 # def favourite_drink(drink):
 #     print("My favourite drink is", drink)
 
