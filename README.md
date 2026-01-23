@@ -20,3 +20,7 @@ Covered the topics of random package , functions and arguments . did mulitple ex
 
 Time stamp - 3.03 - 4.16
 
+# day 05 
+Covered the topics of modules , membership operators , variable scopes and did examples.
+
+Time stamp - 4.16 - 5.14
