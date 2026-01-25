@@ -29,4 +29,6 @@ Time stamp - 4.16 - 5.14
 
 Covered the topics of using the double underscore method such as if __name__ -__main__ and did various examples to understand the implementation of it.
 
-Time stamp - 5.14 - 5.58
+Did a few more examples of all the basics and functions such as a hangman and slot machine program
+
+Time stamp - 5.14 - 6.32
