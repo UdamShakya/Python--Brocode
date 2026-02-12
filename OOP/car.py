@@ -13,6 +13,23 @@ class car:
 
     def stop(self):
         print(f"The car has stopped {self.model}")
+ 
+ #class variable = shared among all instances of a class 
+ #Defined outside the constructor 
+ #allow you to share data among all objects created from that class
+
+class student:
+    class_year = 2004
+    Num_student = 0
+
+
+    def __init__(self,name,age):
+        self.age=age
+        self.name=name
+        student.Num_student += 1
+
+
+        
 
 
 
