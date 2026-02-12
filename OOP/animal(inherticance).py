@@ -15,13 +15,16 @@ class animal:
         print(f"{self.name} is sleeping.")
 
 class  Dog(animal):
-    pass
+    def bark(self):
+        print(f"{self.name} is barking.")
 
 class cat (animal):
-    pass
+    def meow(self):
+        print(f"{self.name} is meowing.")
 
 class mouse(animal):
-    pass
+    def squeak(self):
+        print(f"{self.name} is squeaking.")
 
 dog = Dog("Buddy")
 cat = cat("Whiskers")
