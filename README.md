@@ -32,3 +32,9 @@ Covered the topics of using the double underscore method such as if __name__ -__
 Did a few more examples of all the basics and functions such as a hangman and slot machine program
 
 Time stamp - 5.14 - 6.32
+
+# Day 07
+
+Covered the basics of  objected oriented programming.Mainly classes,objects, class variables and instance variables. Also covered the first feature of Inheritance
+
+Time stamp - 6.32 - 7.00
