@@ -38,3 +38,9 @@ Time stamp - 5.14 - 6.32
 Covered the basics of  objected oriented programming.Mainly classes,objects, class variables and instance variables. Also covered the first feature of Inheritance
 
 Time stamp - 6.32 - 7.00
+
+# Day 08 
+
+Covered the topics of muliple and mulitlevel inheritance , super class , abstract base class and duck typing
+
+Time stamp  - 7.00 -7.30 
