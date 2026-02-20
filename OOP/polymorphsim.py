@@ -40,3 +40,28 @@ shapes = [circle(5), square(4), triangle(3, 6), Pizza("pepperoni", 10)]
 
 for shape in shapes:
     print(f"Area: {shape.area()}cm²")
+
+#Duck typing 
+#Abject must have minimum necessary attributes/methods
+
+class Animal:
+    alive = True
+
+class Dog(Animal):
+    def speak(self):
+        return "Woof!"
+
+class Cat(Animal):
+    def speak(self):
+        return "Meow!"
+
+class Car:
+    alive = False
+    def speak(self):
+        return "Beep beep!"
+
+animals = [Dog(), Cat(),Car()]
+
+for animal in animals:
+    print(f"Animal alive: {animal.alive}")
+    print(animal.speak())
