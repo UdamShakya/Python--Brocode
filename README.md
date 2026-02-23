@@ -44,3 +44,9 @@ Time stamp - 6.32 - 7.00
 Covered the topics of muliple and mulitlevel inheritance , super class , abstract base class and duck typing
 
 Time stamp  - 7.00 -7.30 
+
+# Day 09
+
+Covered the topics of static methods ,class methods, Magic methods and how to implement them in different scenarios. Also learnt about protected attributes  and how to get , set and delete them through @property decorator. Also went through the format of a decorator. Started exceptions and handling them 
+
+Time stamp - 7.30 - 8.15
