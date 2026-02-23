@@ -109,3 +109,19 @@ rectangle =Rectangle(5,10)
 rectangle.width =6
 
 print(rectangle.width)
+
+
+
+#decorators = A function that extends the behaviour of another function
+
+def add_sprinkles(func):
+        def wrapper(*args, **kwargs):
+            print("Adding sprinkles")
+            func(*args, **kwargs)
+        return wrapper
+
+@add_sprinkles
+def get_ice_cream(flavour):
+    print(f"Here is your {flavour} ice cream!")
+
+get_ice_cream("chocolate")
