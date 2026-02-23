@@ -42,7 +42,7 @@ for shape in shapes:
     print(f"Area: {shape.area()}cm²")
 
 #Duck typing 
-#Abject must have minimum necessary attributes/methods
+#Abject must have minimum necessary attributes/methods 
 
 class Animal:
     alive = True
