@@ -25,3 +25,22 @@ employee3 = Employee("Charlie", "Designer")
 print(employee1.get_info())
 print(employee2.get_info())
 print(employee3.get_info())
+
+
+#class methods = Allow operations related to class itself
+
+
+class Student:
+    count=0
+    def __init__(self,name,gpa):
+        self.name = name
+        self.gpa = gpa
+        Student.count += 1
+
+    @classmethod
+    def get_student_count(cls):
+        return cls.count
+    
+    #instance method
+    def get_info(self):
+        return f"Name: {self.name}, GPA: {self.gpa}"
