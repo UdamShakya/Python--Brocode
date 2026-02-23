@@ -36,6 +36,7 @@ class Student:
         self.name = name
         self.gpa = gpa
         Student.count += 1
+        Student.gpa += gpa
 
     @classmethod
     def get_student_count(cls):
@@ -44,3 +45,22 @@ class Student:
     #instance method
     def get_info(self):
         return f"Name: {self.name}, GPA: {self.gpa}"
+    
+    @classmethod
+    def get_average_gpa(cls):
+        if cls.count == 0:
+            return 0
+        else:
+            return f"{cls.gpa / cls.count:.2f}"
+
+
+student1 = Student("Alice", 3.5)
+student2 = Student("Bob", 3.8)
+student3 = Student("Charlie", 3.2)
+
+print(student1.get_info())
+print(student2.get_info())
+print(student3.get_info())
+
+print("Total Students:", Student.get_student_count())
+print("Average GPA:", Student.get_average_gpa())
